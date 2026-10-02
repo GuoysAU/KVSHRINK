@@ -1,0 +1,11 @@
+# Main experiments: compression, generation, and scoring.
+# Tested with Python 3.12 on CUDA 12.9.
+torch==2.8.0
+transformers==4.57.1
+accelerate==1.11.0
+datasets==4.4.1
+numpy==2.2.6
+sentencepiece==0.2.1
+rouge-score==0.1.2
+tqdm==4.67.1
+matplotlib==3.10.7
